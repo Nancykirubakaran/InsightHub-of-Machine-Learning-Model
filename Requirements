@@ -1,0 +1,56 @@
+import streamlit as st
+from streamlit_option_menu import option_menu
+import pandas as pd
+import numpy as np
+import cv2
+import re
+import pytesseract
+from PIL import Image
+import base64
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import f1_score, precision_score, accuracy_score,recall_score,classification_report
+import seaborn as sns
+import pickle
+import warnings
+from sklearn.feature_selection import SelectFromModel
+from imblearn.over_sampling import SMOTE
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import load_iris
+from sklearn import tree
+import graphviz
+import pydotplus
+from io import StringIO
+from sklearn import datasets
+from sklearn.tree import DecisionTreeClassifier, export_graphviz
+import graphviz
+from PIL import Image
+import io
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from scipy.stats import norm
+import streamlit as st
+import numpy as np
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+import plotly.express as px
+from sklearn.feature_selection import SelectKBest, f_classif
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+import spacy
+from spacy import displacy
+from wordcloud import WordCloud
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline
+from surprise import SVD
+from surprise import Dataset
+from surprise import Reader
+from surprise.model_selection import train_test_split
+from surprise import accuracy
